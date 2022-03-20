@@ -1,0 +1,46 @@
+
+Parallel
+
+<suite thread-count="2" parallel="tests" name="Suite">
+      <test   thread-count="2" parallel="tests"  name="TestRunner">
+            <classes>
+                    <class  com.practice.vtigerOpen />
+             </classes>
+      </test>
+
+==========================
+
+   <test   thread-count="2" parallel="tests"  name="TestRunner">
+            <classes>
+                    <class com.practice.vtigerOpen />
+             </classes>
+      </test>
+</suite>
+
+
+Parameter
+
+
+
+<suite thread-count="2" parallel="tests" name="Suite">
+      <test   thread-count="2" parallel="tests"  name="TestRunner">
+  <parameter name="Browser"   value="Chrome"/>
+            <classes>
+                    <class  com.practice.vtigerOpen />
+             </classes>
+      </test>
+
+==========================
+
+   <test   thread-count="2" parallel="tests"  name="TestRunner">
+       <parameter name="Browser"   value="FireFox"/>
+            <classes>
+                    <class com.practice.vtigerOpen />
+             </classes>
+      </test>
+</suite>
+
+
+
+
+
