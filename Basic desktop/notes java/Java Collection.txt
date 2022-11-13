@@ -1,0 +1,31 @@
+Array Disadvantages                             Advantages of Collection over Array
+1.Array is Homogenius.                          1.Collection is hetrogenius.
+2.Array is Fixed in size.                       2.Collection doesn't have fixed size.
+3.Array doesn't have inbuilt functions.         3.Collection has inbuilt functions.
+
+
+      List                                                    Set                                           Map
+List is an interface.                            Set is an interface                            Map is an interface
+1.It is Hetrogenius.                             1.Set is Homogenius.                           1.Map stores data in key& value pairs
+2.It will accept duplicate.                      2.It will not accept Duplicate values          2.It will not accept duplicates keys, 
+3.It will accept N number of null values.                                                          it will accept duplicate values
+4.It maintains insertion order.                                                                 3.In Map Keys are Homogenius but values
+                                                                                                   but values are hetrogenius.
+ArrayList                                         HashSet                                          
+1.ArrayList is class.                            1.Hashset doesn't maintain insertion order.       
+2.Data Structure is Growable/Resizeable          2.Data structure is HashTable.
+3.It is used for Delete operation.               3.It will accept 1 null value.
+4.Contains 3 overloded constructurs.             4.HashSet has 2 constructors.
+5.Default capacity of AL is 10(DC*3/2).          5.Default capacity of HS is 16(DC*2/0.75)
+                                                        
+LinkedList                                          LinkedHashSet   
+1.LinkedList is a class.                         1.LinkedHashSet is a class.
+2.Their is no default capacity.                  2.Data Structure Doubly linkedLidt.
+3.LinkedList is used addition/                   3.It is maintaining insertion order.
+    /manipulation of elements.                   4.It has 5 Construtors.
+
+                                                     TreeSet
+                                                 1.TreeSet is a class
+                                                 2.Data structure of TreeSet is Balanced tree.
+                                                 3.It will not accept Null value
+                                                 4.It will print in sorted order.  
